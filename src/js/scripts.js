@@ -1,4 +1,7 @@
 import { setWithExpiry, getWithExpiry } from "./modules/localStorageHelpers.js";
+import clickHandlers from "./modules/clickHandlers.js";
+
+document.addEventListener("click", clickHandlers);
 
 // store the link plus the API key in a variable
 const key = "XJYe53T8oZ9wRgPqxGVAs2NtPqId5pdL";
